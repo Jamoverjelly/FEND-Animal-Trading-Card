@@ -1,0 +1,75 @@
+.container {
+    width: 480px; /*240px true width of card*/;
+    height: 790px; /*336px true hight of card*/;
+    /* background-color: lightseagreen; */
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 0 10px 20px 10px;
+    background-image: url(ricepaper2.png);
+    /* ========== Image source attribution ========== */
+    /* The above background pattern image "Rice Paper 2" */
+    /* by Atle Mo was retrieved from: Toptal Subtle Patterns */
+    /* at https://www.toptal.com/designers/subtlepatterns/rice-paper-2/ */
+    /* The image was retrieved on May 1, 2018 and is licensed under CC BY-SA 3.0 */
+    /* ========== End image source attribution ========== */
+    box-sizing: border-box;
+}
+
+.top {
+    height: 320px;
+    width: 218px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.pic {
+    background-color: lightgray;
+    border: 3px solid pink;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.animal-info {
+    width: 418px;
+    height: 340px;
+    background-color: transparent;
+    margin: 0 auto;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.interesting-fact {
+    font-style: italic;
+}
+
+.facts {
+    list-style: none;
+}
+
+.alias {
+    font-family: 'Dokdo', cursive;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Dokdo', cursive;
+    font-size: 50px;
+    width: 100px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+body {
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d9a7c7, #fffcdc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
